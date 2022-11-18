@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  background-color: white;
+
+}
+
+.header {
+  /* height:%; */
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+  
+  height: 65vh;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 40px;
+  
+  
+}
+.nav .left h4{
+  font-weight: lighter;
+
+}
+.nav .right {
+    display: flex;
+    gap: 2.5rem;
+    font-weight: lighter;
+  }
+.nav .right h4{
+    /* font-size: xx-small; */
+    font-weight: lighter;
+}
+
+/* Navbar complete */
+.head{
+    margin-top: 7vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+/* Header complete */
+
+.head .logo{
+    height:auto;
+    width:20%;
+}
+.head h2{
+  margin-top: 5.5vh;
+  font-size:35px;
+  font-weight: lighter;
+}
+.search-item1{
+    display: flex;
+    align-items: center;
+    width:35%;
+    margin-left: 2vh;
+    gap:1vh;
+}
+.search-item1 i{
+  color:lightcoral;
+}
+.search-item2{
+  display: flex;
+  align-items: center;
+  width:65%;
+  gap:1vh;
+  margin-right:2vh ;
+}
+.search-item2 .search{
+  width:95%;
+  border: none;
+  word-spacing: 2px;
+  font-size:15px ;
+  border-color: white;
+  outline: none;
+}
+.search-bars{
+    display: flex;
+    align-content: center;
+    gap:2vh;
+    height:7vh;
+    color: grey;
+    background-color: white;
+    width:60%;
+    border-radius: 8px;
+}
+
+/* Header Finished till here */
+
+/* First section Starts */
+.section-1{
+  margin-top: 8.5vh;
+  
+}
+.section-1 .cards{
+  width:48%;
+  display: flex;
+  justify-content: center;
+  height:auto;
+  margin-top: 100vh;
+  margin:0 7vh;
+  gap:2vh;
+  color:black;
+  /* outline: grey;
+  outline-width: 2vh; */
+  /* border-radius:5px; */
+  /* align-items: center;
+  justify-content: center; */
+}
+.section-1 .cards .first{
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: grey;
+  border-radius: 15px;
+}
+.section-1 .cards .first {
+  width: 33%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.first img{
+  width: 100%;
+  height: auto;
+  /* border-radius: 5px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.section-1 .popular{
+  margin: 3rem 10rem;
+    /* margin-top:3rem; */
+    /* margin-left: 50px;  */
+    color:black;
+    font-size: 4vh;
+    font-weight: lighter;
+}
+.section-2{
+  overflow: hidden;
+  margin-top: 3vh;
+  margin-bottom: 4rem;
+}
+.section-2 .items .location{
+  color:black;
+}
+.section-2 .items{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  margin:auto;
+  overflow: hidden;
+}
+.section-2 .items .row{
+  display: flex;
+  width:100%;
+  gap:4rem;
+  margin:0 0 1rem 1rem;
+  justify-content: center;
+}
+.section-2 .items .row .location{
+  width:22%;
+  height:auto;
+  outline:1px solid rgb(215,215,214);
+  border-radius:10px;
+  box-shadow: 0px 5px 4px whitesmoke;
+  /* border-color:white; */
+}
+.section-2 .items .row .location .para-1{
+  font-size: larger;
+
+
+}
+.section-2 .items .row .location p{
+  margin:2vh;
+}
+.footer {
+  background-color: rgb(251, 238, 240);
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height:fit-content;
+  color:black;
+}
+.phone-image{
+  width:35%;
+}
+.footer .actual-footer .phone-image img{
+  width:80%;
+  height:auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-right: 0px;
+/*   
+  width:75%;
+  height:100%; */
+  /* position: relative; */
+}
+.footer .actual-footer .phone-image{
+  width: 500px;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.footer .actual-footer{
+  display: flex;
+  /* justify-items: center; */
+  justify-content: center;
+  align-items: center;
+
+  gap:0px;
+  /* justify-items: ; */
+}
+
+.footer .actual-footer .content .Zomato {
+  font-size: 45px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  /* padding: auto; */
+}
+.actual-footer .content .text{
+  font-size: 20px;
+  font-weight: lighter;
+  align-content: center;
+  margin-bottom: 0px;
+}
+
+.footer .actual-footer .store-image{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  /* margin-bottom: 10vh; */
+  gap:1vh;
+  width:50%;
+  height:auto;
+}
+.store-image img{
+  width:80%;
+  height:auto;
+}
+
+.final{
+  width:100%;
+  height:10vh;
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.final p{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+}
